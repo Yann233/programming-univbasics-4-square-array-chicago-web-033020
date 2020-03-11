@@ -2,7 +2,6 @@ def square_array(numbers)
   # Allocate an array with the same size as `numbers`
   # so that the runtime does not have to resize it from time to time
   result = []
-
   # The index
   i = 0
 
@@ -12,7 +11,7 @@ def square_array(numbers)
 
     # and don't forget to increase the index,
     # otherwise the loop will run forever.
-    i += 1
+    #i += 1
   end
 
   # Return the result array
