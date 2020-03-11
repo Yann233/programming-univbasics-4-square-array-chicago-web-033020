@@ -8,12 +8,10 @@ def square_array(numbers)
   while i < numbers.length
     # Fill the result array
     result[i] = numbers[i] ** 2
-
     # and don't forget to increase the index,
     # otherwise the loop will run forever.
     #i += 1
   end
-
   # Return the result array
   result
 end
