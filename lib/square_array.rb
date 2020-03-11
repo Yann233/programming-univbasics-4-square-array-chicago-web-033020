@@ -5,8 +5,7 @@ def square_array(numbers)
 
   # The index
   i = 0
-
-  while i < numbers.size
+  while i < numbers.length
     # Fill the result array
     result[i] = numbers[i] ** 2
 
