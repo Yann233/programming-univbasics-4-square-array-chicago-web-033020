@@ -6,7 +6,7 @@ def square_array(numbers)
     squaredAr= numbers[i] ** 2
     # and don't forget to increase the index,
     # otherwise the loop will run forever.
-  #  i += 1
+    i += 1
   end
   # Return the result array
   squaredAr
