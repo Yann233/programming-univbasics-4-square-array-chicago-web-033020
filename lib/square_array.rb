@@ -5,7 +5,6 @@ def square_array(array)
 
   # The index
   i = 0
-
   while i < array.size
     # Fill the result array
     squaredResult[i] = array[i] ** 2
