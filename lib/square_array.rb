@@ -3,7 +3,7 @@ def square_array(numbers)
   i = 0 #index start from 0
   while i < numbers.length
     # Fill the result array
-    squaredAr[i]=numbers[i] ** 2
+    squaredAr<<numbers[i] ** 2
     # and don't forget to increase the index,
     # otherwise the loop will run forever.
     i += 1
